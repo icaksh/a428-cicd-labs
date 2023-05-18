@@ -16,7 +16,7 @@ node {
             } catch (e) {
                 throw e
             } finally {
-                //sleep 60
+                sleep 60
                 input message: 'Sudah selesai menggunakan React App? (Klik "Proceed" untuk mengakhiri)' 
                 sh './jenkins/scripts/kill.sh' 
             }    
