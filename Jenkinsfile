@@ -31,7 +31,7 @@ node {
             sh('git config --global user.email "me@icaksh.my.id"')
             sh('git config --global user.name "icaksh"')
             sh('git add . && git commit -am "[Jenkins CI] Add build file"')
-            sh('git push git@github.com:icaksh/a428-cicd-labs.git HEAD:master  --tags -f --no-verify')
+            sh('git push git@github.com:icaksh/a428-cicd-labs.git HEAD:react-app  --tags -f --no-verify')
         }
     }
 }
